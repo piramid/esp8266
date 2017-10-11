@@ -3,11 +3,11 @@ void Line_Notify(String messageOn) ;
 #include <ESP8266WiFi.h>
 
 // Config connect WiFi
-#define WIFI_SSID "tom"
-#define WIFI_PASSWORD "aaaaabbbb1"
+#define WIFI_SSID "tomPatty13"
+#define WIFI_PASSWORD "aaaaabbbb1Patty45"
 
 // Line config
-#define LINE_TOKEN "GhUpuJaEcl5e5KNKgFJTnE6eBlapxH9nRM9bUXuihmr"
+#define LINE_TOKEN "GhUpuJaEcl5e5KNKgFJTnE6eBlapxH9nRM9bUXuihmrPAtty78"
 
 #define SW D6
 
