@@ -10,10 +10,10 @@
 #include <ESP8266WiFi.h>
 #include <IoTtweet.h>
 
-const char *userid = "000596";            //IoTtweet account user ID (6 digits, included zero pre-fix)
-const char *key = "v2caqgdiyc0c";     //IoTtweet registered device key in "MY IOT Garage"
-const char *ssid = "GODDA-SPOT";                    //Your-WiFi-router-SSID
-const char *password = "binahead";            //Your-WiFi-password
+const char *userid = "xxxx";            //IoTtweet account user ID (6 digits, included zero pre-fix)
+const char *key = "xxxx";     //IoTtweet registered device key in "MY IOT Garage"
+const char *ssid = "xxxx";                    //Your-WiFi-router-SSID
+const char *password = "xxxx";            //Your-WiFi-password
 
 float data0, data1, data2, data3;                        //Your sending data variable.
 String private_tweet = "Smart Farm";                    //Your private tweet meassage to dashboard
