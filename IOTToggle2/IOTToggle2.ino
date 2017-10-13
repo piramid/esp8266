@@ -1,12 +1,12 @@
 #include <ESP8266WiFi.h>
 #include <MicroGear.h>
 
-const char* ssid     = "tom";
-const char* password = "aaaaabbbb1";
+const char* ssid     = "xxxx"; //wifi ssid
+const char* password = "xxxx"; // wifi password
 
-#define APPID   "tomsmart"
-#define KEY     "S7WxfBmkiXfuleQ"
-#define SECRET  "Ix9D9WZ012ELikJ0N3w82tF5z" 
+#define APPID   "xxxxxx"
+#define KEY     "xxxxxx"
+#define SECRET  "xxxxxx" 
 
 #define ALIAS   "toggle"
 
