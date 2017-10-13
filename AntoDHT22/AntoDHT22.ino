@@ -13,11 +13,11 @@
 #define DHTPIN 2    //port D4
 #define DHTTYPE DHT22
 
-const char *ssid = "guitar";
-const char *pass = "aaaaabbbbb";
-const char *user = "piramid";
-const char *token = "9QE2ux58e6upxiSTSIRsfRRrBAzCxJPfGBeLxE1U";
-const char *thing = "waether";
+const char *ssid = "xxxxx";
+const char *pass = "xxxxxx";
+const char *user = "xxxxxx";
+const char *token = "xxxxxxx";
+const char *thing = "xxxxxxx";
 
 // initialize AntoIO instance
 AntoIO anto(user, token, thing);
