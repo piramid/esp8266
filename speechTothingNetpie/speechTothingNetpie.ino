@@ -5,7 +5,7 @@
 #include <MicroGear.h>
 #include "DHT.h"
 
-const char* ssid     = "WIFI-MTC";
+const char* ssid     = " ";
 const char* password = " ";
 
 #define APPID   "appspeech"
@@ -15,7 +15,7 @@ const char* password = " ";
 
 #define LEDSTATETOPIC "/light/" ALIAS      // topic ที่ต้องการ publish ส่งสถานะ led ในที่นี้จะเป็น /ledstate/{ชื่อ alias ตัวเอง}
 #define DHTDATATOPIC "/dht/" ALIAS            // topic ที่ต้องการ publish ส่งข้อมูล dht ในที่นี่จะเป็น /dht/{ชื่อ alias ตัวเอง}
-#define TEMPTOPIC "/dhttemp/"            // topic ที่ต้องการ publish ส่งข้อมูล dht ในที่นี่จะเป็น /dht/{ชื่อ alias ตัวเอง}
+#define TEMPTOPIC "/dhttemp/"            // topic ที่ต้องการ publish ส่งข้อมูล dhttemp ในที่นี่จะเป็น /dhttemp/
 #define HUMIDTOPIC "/dhthumid/"
 
 #define BUTTONPIN  D3                         // pin ที่ต่อกับปุ่ม Flash บนบอร์ด NodeMCU
