@@ -5,14 +5,14 @@
 #include <MicroGear.h>
 #include <DHT.h>
 
-const char* ssid     = "PICHtom";
-const char* password = "aaaaabbbb1234";
+const char* ssid     = " ";
+const char* password = " ";
 
-#define APPID  "mtcLAB"
-#define KEY    "0PhETi6Fg3hOkIB"
-#define SECRET "liBUmVXwtGWrleArHEBY4Wew4"
-#define ALIAS  "mtcDevice"
-#define FEEDID "mtcFeed"
+#define APPID  " "
+#define KEY    " "
+#define SECRET " "
+#define ALIAS  " "
+#define FEEDID " "
 
 #define TEMPTOPIC "/temp/"
 #define HUMIDTOPIC "/humid/"
