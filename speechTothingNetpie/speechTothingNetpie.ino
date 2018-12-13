@@ -8,9 +8,9 @@
 const char* ssid     = " ";
 const char* password = " ";
 
-#define APPID   "appspeech"
-#define KEY     "njjBaHH5iepcYV9"
-#define SECRET  "dLKGXqMVv0KmPgHcJHB6ZvLgB"
+#define APPID   "aaaa"
+#define KEY     "aaaa"
+#define SECRET  "aaaa"
 #define ALIAS   "speech"
 
 #define LEDSTATETOPIC "/light/" ALIAS      // topic ที่ต้องการ publish ส่งสถานะ led ในที่นี้จะเป็น /ledstate/{ชื่อ alias ตัวเอง}
