@@ -6,9 +6,9 @@
 const char* ssid     = "tom";       // ชื่อ ssid
 const char* password = "aaaaabbbb1";        // รหัสผ่าน wifi
 
-#define APPID   "netpietrain"                       // ให้แทนที่ด้วย AppID รวม
-#define KEY     "IgkZUQIzaxZtDdN"                         // ให้แทนที่ด้วย Key รวม
-#define SECRET  "TzIbvfseY7Fg4DbiIzk0MRSVR"                      // ให้แทนที่ด้วย Secret รวม
+#define APPID   "aaaa"                       // ให้แทนที่ด้วย AppID รวม
+#define KEY     "aaaa"                         // ให้แทนที่ด้วย Key รวม
+#define SECRET  "aaaa"                      // ให้แทนที่ด้วย Secret รวม
 
 #define ALIAS   "A01"           // แทนที่ด้วยหมายเลขของท่าน เช่น "A01"
 #define NEIGHBOR "dth2sensor"             // ชื่ออุปกรณ์ของเพื่อน เช่น "A02"
