@@ -1,0 +1,24 @@
+int ledPin = 13;  // the number of the pushbutton pin
+int buttonPin = 2;  // the number of the LED pin
+ 
+boolean buttonState; 
+boolean lastState;
+boolean state = HIGH; // variable for first status
+ 
+ void setup() {
+  pinMode (buttonPin,INPUT);  // initialize the pushbutton pin as an input: 
+  pinMode (ledPin,OUTPUT);  // initialize the LED pin as an output:
+}
+ 
+void loop() {
+  reading = digitalRead(buttonPin);
+ 
+  if ( reading == LOW && lastState == HIGH ) { 
+    delay (10);  // To solve the The problem switch bounce 
+    if (digitalRead(buttonPin) == LOW) state = !state; 
+  }
+ 
+  digitalWrite(ledPin,state);
+  lastState = reading;
+ 
+}
