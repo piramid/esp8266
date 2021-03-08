@@ -11,7 +11,7 @@
 //ESP Web Server Library to host a web page
 #include <ESP8266WebServer.h>
 
-LiquidCrystal_I2C lcd(0x3F, 16, 2);
+LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 //---------------------------------------------------------------
 //Our HTML webpage contents in program memory
