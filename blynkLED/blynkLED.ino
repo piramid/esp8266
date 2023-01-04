@@ -7,14 +7,14 @@
 // Go to the Project Settings (nut icon).
 
 #define BLYNK_DEVICE_NAME "led"
-#define BLYNK_AUTH_TOKEN "kCCqs__pOaRAzzPmeQF4800xwNoFdcIT"
+#define BLYNK_AUTH_TOKEN ""
 
-char auth[] = "kCCqs__pOaRAzzPmeQF4800xwNoFdcIT";
+char auth[] = " ";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Guitar-2.4";
-char pass[] = "AAAAABBBB1";
+char ssid[] = "";
+char pass[] = "";
 
 // Select the digital pin that the LED is connected to
 const int ledPin1 = D4; //GPIO2 
