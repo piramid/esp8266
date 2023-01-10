@@ -1,5 +1,5 @@
 #define BLYNK_PRINT Serial
-#define BLYNK_TEMPLATE_ID "TMPLtJlSJeSg"
+#define BLYNK_TEMPLATE_ID " "
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include "DHT.h"
