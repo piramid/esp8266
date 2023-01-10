@@ -4,12 +4,12 @@
 #include <BlynkSimpleEsp8266.h>
 #include "DHT.h"
 
-char auth[] = "kCCqs__pOaRAzzPmeQF4800xwNoFdcIT";
+char auth[] = "";
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-char ssid[] = "Tccar";
-char pass[] = "aaaaabbbbb";
+char ssid[] = "";
+char pass[] = "";
 
 #define DHTPIN D3     // what pin we're connected to
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
