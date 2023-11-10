@@ -16,8 +16,8 @@ const char *password = "*******";  // Enter WiFi password
 // MQTT Broker
 const char *mqtt_broker = "broker.emqx.io";
 const char *topic = "esp8266/led";
-const char *mqtt_username = "tom";
-const char *mqtt_password = "123";
+const char *mqtt_username = "user";
+const char *mqtt_password = "password";
 const int mqtt_port = 1883;
 
 bool ledState = false;
