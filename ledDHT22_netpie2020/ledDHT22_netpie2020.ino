@@ -12,13 +12,13 @@ String autopump = "on";
 DHT dht(ddht, DHTTYPE);
 
 
-char ssid[] = "Guitar-2.4GHz";
-const char* password = "AAAAABBBB1";
+char ssid[] = "xxxxxx";
+const char* password = "xxxxxx";
 const char* mqtt_server = "broker.netpie.io";
 const int mqtt_port = 1883;
-const char* mqtt_Client = "bfe9e357-d493-48c9-abe2-9943ca6e2877";
-const char* mqtt_username = "nufxLt6rQyyTwU3GZoboVfXyoxF4uek3";
-const char* mqtt_password = "J5osedL4gafGCKyPrfKY6z5b9k789bD4";
+const char* mqtt_Client = "xxxxxxx";
+const char* mqtt_username = "xxxxxxxx";
+const char* mqtt_password = "xxxxxxx";
 
 WiFiClient espClient;
 PubSubClient client(espClient);
